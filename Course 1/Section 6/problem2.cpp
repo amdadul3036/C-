@@ -30,14 +30,15 @@ int main(){
     float room_tax {0.06};
     int number_of_days_valid {30};
 
-    cout<<"Enter the number of room you want: "<<endl;
-    cin>>number_of_room;
-    cout<<"Number of Room You have entered Just now: "<<number_of_room<<endl;
-    cout<<"Every Room Charge: "<<room_charge<<endl;
-    cout<<"So your room charge for "<<number_of_room<<" number of rooms is: "<<room_charge*number_of_room<<endl;
-    cout<<"Tax per room: "<<room_tax<<endl;
-    cout<<"So your total room tax for "<<number_of_room<<" number of rooms is: "<<room_charge*room_tax<<endl;
-    cout<<"========================================================"<<endl;
-    cout<<"Your total rent for: "<< number_of_room << " number of room is" <<" " << ((room_charge*number_of_room) + (room_charge*room_tax)) <<endl;
-    cout<<"Thank you for your reservation."<<endl;
+    std::cout<<"Estimate for carpet cleaning service"<<endl;
+    std::cout<<"Enter the number of room you want: "<<endl;
+    std::cin>>number_of_room;
+    std::cout<<"Number of Room You have entered Just now: "<<number_of_room<<endl;
+    std::cout<<"Every Room Charge: "<<room_charge<<endl;
+    std::cout<<"So your room charge for "<<number_of_room<<" number of rooms is: "<<room_charge*number_of_room<<endl;
+    std::cout<<"Tax per room: "<<room_tax<<endl;
+    std::cout<<"So your total room tax for "<<number_of_room<<" number of rooms is: "<<room_charge*number_of_room*room_tax<<endl;
+    std::cout<<"========================================================"<<endl;
+    std::cout<<"Your total rent for: "<< number_of_room << " number of room is" <<" " << ((room_charge*number_of_room) + (room_charge*room_tax)) <<endl;
+    std::cout<<"Thank you for your reservation."<<endl;
 }
