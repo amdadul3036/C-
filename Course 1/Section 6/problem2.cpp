@@ -34,11 +34,11 @@ int main(){
     std::cout<<"Enter the number of room you want: "<<endl;
     std::cin>>number_of_room;
     std::cout<<"Number of Room You have entered Just now: "<<number_of_room<<endl;
-    std::cout<<"Every Room Charge: "<<room_charge<<endl;
-    std::cout<<"So your room charge for "<<number_of_room<<" number of rooms is: "<<room_charge*number_of_room<<endl;
-    std::cout<<"Tax per room: "<<room_tax<<endl;
-    std::cout<<"So your total room tax for "<<number_of_room<<" number of rooms is: "<<room_charge*number_of_room*room_tax<<endl;
+    std::cout<<"Every Room Charge: "<<"$"<<room_charge<<endl;
+    std::cout<<"So your room charge for "<<number_of_room<<" number of rooms is: "<<"$"<<room_charge*number_of_room<<endl;
+    std::cout<<"Tax per room: "<<"$"<<room_tax<<endl;
+    std::cout<<"So your total room tax for "<<number_of_room<<" number of rooms is: "<<"$"<<room_charge*number_of_room*room_tax<<endl;
     std::cout<<"========================================================"<<endl;
-    std::cout<<"Your total rent for: "<< number_of_room << " number of room is" <<" " << ((room_charge*number_of_room) + (room_charge*room_tax)) <<endl;
+    std::cout<<"Your total rent for: "<< number_of_room << " number of room is" <<" " <<"$"<< ((room_charge*number_of_room) + (room_charge*number_of_room*room_tax)) <<endl;
     std::cout<<"Thank you for your reservation."<<endl;
 }
