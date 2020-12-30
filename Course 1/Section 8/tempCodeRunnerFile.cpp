@@ -1,2 +1,2 @@
-counter++;
-    // cout << "Counter : " << counter << endl;  //12
+// wear_coat = (temperature < temperature_for_coat && wind_speed > wind_speed_for_coat);
+    // cout << "Do you ne
