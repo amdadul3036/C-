@@ -49,9 +49,9 @@ int main(){
             total_price += total_price*0.1;
         }
         
-        cout << fixed << setpercision(2);
+        cout << fixed << setprecision(2);
         cout << "The Volume of Your Package is : " << total_volume_of_the_box << endl;
-        cout << " Total Price : " << total_price << endl;
+        cout << " Total Price : $ " << total_price << endl;
         
     }
 
