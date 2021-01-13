@@ -1,6 +1,17 @@
 // e^x Series
 // e^x = 1 + (x/1!) + ((x^2)/2!) + ((x^3)/3!) + ...... 
 
+
+// For Algorithm remember ---
+
+// 1! * 2 = 2!
+// 2! * 3 = 3!
+// 3! * 4 = 4!
+// 4! * 5 = 5!
+// ...........
+// (n-1)!*n = n!
+
+
 #include <iostream>
 using namespace std;
 
