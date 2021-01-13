@@ -25,9 +25,10 @@ int main(){
     cout << "Enter your preffered value of x in degree : ";
     cin >> x_in_degree;
 
-    double x_in_radian = x_in_degree * (PI/180);
+    double x_in_radian = x_in_degree * PI/180;
 
-    float ans {1} , temp {1};
+    float ans {1} ;
+    float temp {1};
 
     int accuracy;
     cout << "How many terms do you want to calculate: ";
@@ -35,7 +36,7 @@ int main(){
 
     for (int i = 1; i <= (2 * accuracy) ; i+=2)
     {
-        temp = temp * (-1) * x_in_radian * x_in_radian / i * (i+1);
+        temp = temp * (-1) * x_in_radian * x_in_radian / (i * (i+1));
         ans = ans + temp ; 
     }
     
