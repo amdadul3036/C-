@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 
     int i , n ;
-    double PI , a ;
+    double PI , a {0} ;
 
     cout << " Enter how many terms do you want to calculate: ";
     cin >> n ;
