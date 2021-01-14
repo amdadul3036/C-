@@ -13,7 +13,7 @@ int main(){
     cout << "Enter how many term do you want to calculate: ";
     cin >> accuracy;
 
-    double ans , temp {x};
+    double ans , temp {1};
     for (int i = 1; i < accuracy ; i++)
     {
         temp = ( temp * (-1) * x ) / i ;
