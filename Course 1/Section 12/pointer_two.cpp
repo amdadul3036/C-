@@ -22,7 +22,8 @@ int main(){
 
 
     cout << **pxx << endl ;
-    cout << *pxx << endl ;
+    cout << *pxx << endl ;  //It will print the memory location of px because we kept the value of the memory location of px inside pxx
+    
 
 
     return 0;
