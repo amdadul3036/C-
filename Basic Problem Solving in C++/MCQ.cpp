@@ -1,6 +1,5 @@
 // Write a code for a MCQ question marking
 
-
 #include <iostream>
 using namespace std; 
 
