@@ -11,4 +11,6 @@ int main(){
     secret_Number = rand();
 
     cout << "Secret number is : " << secret_Number << endl;
+
+    return 0;
 }
