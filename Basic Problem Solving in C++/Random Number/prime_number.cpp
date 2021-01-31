@@ -1,32 +1,27 @@
 #include <iostream>
 using namespace std;
 
-int prime(int a);
+int number {};
 
 int main(){
-
-    int number {};
 
     cout << "Enter a number that you want to check if it is prime or not : " ;
     cin >> number;
 
-    prime(number);
-}
-
-int prime(int a){
-
-    for (int i = 2; i < a ; i++)
+    int half = number/2;
+    for (int i = 2; i <= half ; i++)
     {
-        if (a%i == 0)
+        if (number%i == 0)
         {
-                cout <<  a << " is not a prime number." << endl;
+                cout <<  number << " is a prime number." << endl;
         }else
             {
-                cout << a << " is a prime number." << endl;
+                cout << number << " is not a prime number." << endl;
             }
 
         return 0;  
     }
-}  
+    
+}
 
 
