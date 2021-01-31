@@ -15,12 +15,10 @@ int main(){
 
 int prime(int a){
 
-    int count {};
     for (int i = 2; i < a ; i++)
     {
         if (a%i == 0)
         {
-            count = count + 1 ;
                 cout <<  a << " is not a prime number." << endl;
         }else
             {
@@ -28,5 +26,7 @@ int prime(int a){
             }
 
         return 0;  
-    }  
-}
+    }
+}  
+
+
