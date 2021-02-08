@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int arr[100] , size , i , num ; //Here we are defining the maximum size of array is 100. So user can choose the size of array be him/her but cannot choose more than 100
+    int arr[100] , size , i , num ; //Here we are defining the maximum size of array is 100. So user can choose the size of array by him/her but cannot choose more than 100
 
     cout << "Enter the size of array (Maximum array size you can take is 100) : ";
     cin >> size;
