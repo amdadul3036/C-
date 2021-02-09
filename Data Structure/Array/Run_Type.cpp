@@ -12,11 +12,11 @@ int main(){
         cout << "You cannot take the size more than 100" << endl;
     }else{
     
-        cout << "Inter the elements using space : ";
-            for (int i = 0; i < size; i++)
-            {
-                cin >> arr[i];
-            }
+        // cout << "Inter the elements using space : ";
+        //     for (int i = 0; i < size; i++)
+        //     {
+        //         cin >> arr[i];
+        //     }
 
         cout << "Enter data you want to insert : ";
         cin >> num;
@@ -24,10 +24,22 @@ int main(){
             {
                 arr[i+1] = arr[i];
             }
-        arr[0] = num;
-        size++;
-        }
+        // arr[0] = num;
+        // size++;
+        // }
 
+    for (int i = 0; i < size; i++)
+    {
         cout << arr[i] << endl;
+    }
+     
     return 0;
 }
+
+
+
+// THIS PROBLEM IS UNSOLVED
+// THIS PROBLEM IS UNSOLVED
+// THIS PROBLEM IS UNSOLVED
+// THIS PROBLEM IS UNSOLVED
+// THIS PROBLEM IS UNSOLVED
