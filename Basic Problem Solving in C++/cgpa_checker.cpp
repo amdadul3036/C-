@@ -2,9 +2,8 @@
 using namespace std;
 
 int marking_system();
-    
+    int mark {};
 int main(){
-    int mark , result;
 
     cout << "Enter your marks : ";
     cin >> mark;
@@ -13,7 +12,7 @@ int main(){
 }
 
 int marking_system(){
-    int mark;
+    // int mark;
 
     if (mark <=40)
     {
