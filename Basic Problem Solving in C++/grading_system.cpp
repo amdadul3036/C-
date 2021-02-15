@@ -24,7 +24,7 @@ void grading_system(){
     {
         cout << "Sorry , the marking system works between 0 to 100. Enter the valid marks. Thank you!" << endl;
     }else
-        {
+    {
             if (marks <= 60)
         {
             cout << "Sorry , you are Fail" << endl;
