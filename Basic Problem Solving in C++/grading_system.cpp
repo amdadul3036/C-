@@ -22,7 +22,7 @@ int main(){
 void grading_system(){
     if (marks < 0 || marks > 100)
     {
-        cout << "Sorry , enter a marking system works between 0 to 100. Enter the valid marks. Thank you!" << endl;
+        cout << "Sorry , the marking system works between 0 to 100. Enter the valid marks. Thank you!" << endl;
     }else
         {
             if (marks <= 60)
