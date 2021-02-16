@@ -7,9 +7,9 @@ int main(){
     cout << "Enter how many * do you want : ";
     cin >> n;
 
-    for (int i = 1 ; i < row; i++)
+    for (row = 1 ; row <= n; row++)
     {
-        for (int j = 1; j < n; j++)
+        for (column = 1; column <= n; column++)
         {
             cout << "* " ;
         }
@@ -17,5 +17,7 @@ int main(){
         cout << endl;
         
     }
+    
+    return 0;
     
 }
