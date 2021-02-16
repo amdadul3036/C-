@@ -1,3 +1,17 @@
+/*
+Input any number and then print the number of rows and columns filled with *
+
+EXAMPLE:
+n = 4
+
+OUTPUT:
+****
+****
+****
+****
+
+
+*/
 #include<iostream>
 using namespace std;
 
