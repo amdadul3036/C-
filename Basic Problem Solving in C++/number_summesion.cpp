@@ -15,16 +15,16 @@ int main(){
     int sum {};
 
     cout << "Enter the number : ";
-    cin >> number;
+    cin >> number;   //Let the number is 135
 
     calculation_used_number = number ;
     while (calculation_used_number != 0)
     {
-        int reminder = calculation_used_number % 10;
+        int reminder = calculation_used_number % 10;  //135%10 = 5
 
-        sum += reminder;
+        sum += reminder;  // 0 + 5 = 5
 
-        calculation_used_number = calculation_used_number / 10; 
+        calculation_used_number = calculation_used_number / 10; // 135 / 10 = 13 (Only integer)
     }
 
     cout << "Sum of all digit of " << number << " is " << sum ;
