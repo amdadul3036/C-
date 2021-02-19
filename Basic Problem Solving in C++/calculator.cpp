@@ -17,14 +17,14 @@ int main(){
         int number1 , number2 ;
         char operat;
 
-        cout << "Enter the first number : ";
-        cin >> number1;
+                cout << "Enter the first number : ";
+                cin >> number1;
 
-        cout << "Enter the second number : ";
-        cin >> number2;
+                cout << "Enter the second number : ";
+                cin >> number2;
 
-        cout << "Enter the operator : " ;
-        cin >> operat;
+                cout << "Enter the operator : " ;
+                cin >> operat;
 
 
         switch (operat)
@@ -51,4 +51,6 @@ int main(){
                 cout << "Sorry, Enter valid operator." << endl;
                 break;
         }
+
+        return 0;
 }
