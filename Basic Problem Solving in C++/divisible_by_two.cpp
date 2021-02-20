@@ -14,20 +14,20 @@ using namespace std;
 
 
 int main(){
-    int number ,calculation_number, count {};
+    int number , calculation_number , count {};
 
-    cout << "Enter the number that you want to check: "; //8
-    cin >> number; //8
+    cout << "Enter the number that you want to check: "; //16
+    cin >> number; //16
 
-    number = calculation_number;  //8
+    calculation_number = number ;  //16
 
-    for (int i = 1; i <= number/2; i++) //4
+    for (int i = 1; i <= number/2; i++) //8
     {
-        if (calculation_number%2==0) //8  4  2
+        if (calculation_number%2==0) //16 8
         {
-            count +=1;  //1 2 3
+            count +=1;  //1 2 3 4
         }
-        calculation_number = calculation_number/2;         //4  2  1
+        calculation_number = calculation_number/2; // 8  4  2
     }
     
     cout << count;
