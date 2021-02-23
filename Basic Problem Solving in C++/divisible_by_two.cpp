@@ -11,6 +11,7 @@ EXAMPLE:
 
 #include<iostream>
 using namespace std;
+
 int main(){
 
     int n,number=0;
@@ -18,7 +19,8 @@ int main(){
     cout << "Enter a number to check \nhow many times it can be divided by 2: ";
     cin >> n;
 
-     while(n%2==0)
+    while(n%2==0)
+    
          {
             n=n/2;
             number++;
