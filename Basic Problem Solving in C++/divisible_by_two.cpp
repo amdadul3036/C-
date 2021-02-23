@@ -16,11 +16,11 @@ int main(){
 
     int n,number=0;
 
-    cout << "Enter a number to check \nhow many times it can be divided by 2: ";
+    cout << "Enter a number to check how many times it can be divided by 2: ";
     cin >> n;
 
     while(n%2==0)
-    
+
          {
             n=n/2;
             number++;
