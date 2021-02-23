@@ -11,25 +11,22 @@ EXAMPLE:
 
 #include<iostream>
 using namespace std;
-
-
 int main(){
-    int number , calculation_number , count {};
 
-    cout << "Enter the number that you want to check: "; 
-    cin >> number; 
+    int n,number=0;
 
-    calculation_number = number ;  
+    cout << "Enter a number to check \nhow many times it can be divided by 2: ";
+    cin >> n;
 
-    while (calculation_number%2==0)
-    {
-        count +=1; 
-        calculation_number = calculation_number/2; 
-    }
+     while(n%2==0)
+         {
+            n=n/2;
+            number++;
+         }
 
-    cout << count;
+        cout << "can be divided: "<< number << " times";
 
     return 0;
 }
 
-// CANNOT SOLVE THIS PROBLEM. TRIED THREE DAYS MY GOSSSS
+
