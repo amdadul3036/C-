@@ -1,3 +1,5 @@
+//Write a code where user will give input and they will print in an array
+
 #include<iostream>
 
 using namespace std;
@@ -13,12 +15,12 @@ int main(){
     {
         cin >> arr[i];
 
-        cout << "Your all numbers in an array : " << endl;
-            for (int i = 0; i < MAX_SIZE; i++)
-            {
-                cout << arr[i];
-                cout << " ";
-            }
+            cout << "Your all numbers in an array : " << endl;
+                for (int i = 0; i < MAX_SIZE; i++)
+                {
+                    cout << arr[i];
+                    cout << " ";
+                }
     }
 
     return 0;
