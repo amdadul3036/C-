@@ -32,7 +32,7 @@ int main(){
     }
     
     
-    // cout << arr ;
+    cout << arr ;
     
     
 }
