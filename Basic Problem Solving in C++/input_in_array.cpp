@@ -11,7 +11,7 @@ int main(){
 
     cout << "Enter a number : " << endl;
 
-    for (int i = 0; i < MAX_SIZE; i++)
+    for (int i = 0 ; i < MAX_SIZE ; i++)
     {
         cin >> arr[i];
 
