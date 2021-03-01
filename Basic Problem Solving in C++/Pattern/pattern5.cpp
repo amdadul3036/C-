@@ -28,7 +28,7 @@ int main(){
         {
             if (row == 1 || row == number || col == 1 || col == number)
             {
-                cout << "* " << endl;
+                cout << "*" << endl;
             }else
             {
                 cout << " " << endl;
