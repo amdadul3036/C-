@@ -18,7 +18,7 @@ Use while statements in each of the following:
 using namespace std;
 
 int main(){
-    int number;
+    int number , sum {1};
 
     cout << "Enter the number whose Factorial you want to calculate: ";
     cin >> number;
@@ -28,13 +28,14 @@ int main(){
         cout << "Factorial of " << number << " is " << 1 << endl;
     }else
     {
-        int i = 1 ;
-        while (/* condition */)
+        int i = 0 ;
+        while (i < number)
         {
-            /* code */
+            sum = sum *( number - i ); 
+            i++;
         }
-        
     }
     
+    cout << sum;
     
 }
