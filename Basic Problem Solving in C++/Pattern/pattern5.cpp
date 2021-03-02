@@ -22,11 +22,11 @@ int main(){
     cout << "Enter the number of star in one arm : ";
     cin >> number;
 
-    for (int row = 1; row <= number; row++)
+    for (int i = 1; i <= number; i++)
     {
-        for (int col = 1; col <= number; col++)
+        for (int j = 1; j <= number; j++)
         {
-            if (row == 1 || row == number || col == 1 || col == number)
+            if (i == 1 || i == number || j == 1 || j == number)
             {
                 cout << "*" ;
             }else
@@ -35,6 +35,7 @@ int main(){
             }
         }
         
+        cout <<"\n";
     }
     return 0;
 }
