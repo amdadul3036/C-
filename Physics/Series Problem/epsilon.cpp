@@ -5,9 +5,10 @@ E = 1 + (1/1!) + (1/2!) + (1/3!) + (1/4!) + .....................
 */
 
 #include<iostream>
+#include <cmath>
+
 using namespace std;
 
-void Facto();
 
 int main(){
 
@@ -18,21 +19,7 @@ int main(){
 
     for (int i = 0; i <= terms; i++)
     {
-        /* code */
-    }
-}
-
-void Facto(){
-
-    int terms;
-
-    cout << "Enter the number: ";
-    cin >> terms;
-
-    if (terms == 0 || terms == 1)
-    {
-        /* code */
-    }
     
-
+    }
 }
+
