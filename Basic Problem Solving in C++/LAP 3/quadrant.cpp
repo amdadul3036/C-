@@ -1,5 +1,5 @@
 /*
-Write a C program which takes two integer values X and Y as inputs and determines which quadrant the point
+Write a C++ program which takes two integer values X and Y as inputs and determines which quadrant the point
 lies.
 Sample Input/Output:
 Input           Output
