@@ -14,19 +14,18 @@ using namespace std;
 
 int main(){
     
-    int number;
+    int number , i = 0;
     int sum = 0;
 
     cout << "Enter your number: ";
     cin >> number;
 
-    int i;
-    while (number%2 != 0)
+    while (number %2 != 0)
     {
         sum = sum + number;
-        cout << sum << endl;
         i++;
     }
     
+    cout << sum << endl;
     return 0;
 }
