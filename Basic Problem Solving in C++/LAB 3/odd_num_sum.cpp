@@ -9,23 +9,31 @@ EXAMPLE:
         2 4 7 9 12 4 4 7 -1               23
 */
 
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
-int main(){
-    
-    int number , i = 0;
-    int sum = 0;
-
-    cout << "Enter your number: ";
-    cin >> number;
-
-    while (number %2 != 0)
-    {
-        sum = sum + number;
+int main()
+{
+    int *Arr[1000],i=0,sizeofArr=0;
+    while(1){
+        Arr[i] = new int;
+        cin >> *Arr[i];
+        if(cin.get() == '\n'){       //exit the loop if ENTER is pressed
+            break;
+        }
         i++;
+        sizeofArr++;
     }
-    
-    cout << sum << endl;
+    int sum = 0;
+    for (int j=0;j<=sizeofArr-1;j++){
+        if (*Arr[j] %2 != 0)
+        {
+            sum = sum + *Arr[j];
+        }
+    }
+    cout << sum;
+
     return 0;
 }
+
