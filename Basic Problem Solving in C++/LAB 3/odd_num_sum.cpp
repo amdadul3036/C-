@@ -19,7 +19,7 @@ int main()
     while(1){
         Arr[i] = new int;
         cin >> *Arr[i];
-        if(cin.get() == '\n'){       //exit the loop if ENTER is pressed
+        if(cin.get() == '\n'){       //It will exit the loop if ENTER is pressed
             break;
         }
         i++;
