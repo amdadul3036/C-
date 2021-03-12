@@ -24,7 +24,7 @@ int main(){
     }else{
         if (n ==)
         {
-            /* code */
+            
         }
         
     }
