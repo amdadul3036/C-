@@ -13,23 +13,6 @@ Input           Output
 using namespace std;
 
 int main(){
-    int n , fact_result;
-
-    cout << "Enter the number : ";
-    cin >> n;
-
-    if (n == 1 || n == 0)
-    {
-        fact_result = 1 ;
-    }else{
-        if (n ==)
-        {
-            
-        }
-        
-    }
     
-
-    cout << fact_result;
     
 }
