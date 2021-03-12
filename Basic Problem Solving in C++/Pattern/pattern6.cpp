@@ -17,4 +17,14 @@ int main(){
 
     cout << "Enter the number of row : ";
     cin >> n;
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = i ; j <= n; j++)
+        {
+            cout << "* ";
+        }
+        cout << endl;
+    }
+    
 }
