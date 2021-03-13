@@ -9,10 +9,32 @@ Input           Output
 -1
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    
-    
+int factorial(int n)
+{
+    if(n == 1 || n==0)
+    {
+        return 1;
+    }
+    else
+    {
+        return n*factorial(n-1);
+    }
+}
+
+int main()
+{
+    int n, r;
+    while(1)
+    {
+        cin >> n;
+        if (n==-1)
+        {
+            break;
+        }
+        r = factorial(n);
+        cout << r << "\n";
+    }
 }
