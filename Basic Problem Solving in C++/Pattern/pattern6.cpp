@@ -18,11 +18,11 @@ int main(){
     cout << "Enter the number of row : ";
     cin >> n;
 
-    for (int i = n; i >= n; i--)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = n ; j >= n; j--)
+        for (int j = i ; j <= n; j++)
         {
-            cout << "* ";
+            cout << "*";
         }
         cout << endl;
     }
