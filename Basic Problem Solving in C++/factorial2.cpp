@@ -35,6 +35,6 @@ int main()
             break;
         }
         r = factorial(n);
-        cout << r << "\n";
+        cout << r << "\n";  //It will create a new line 
     }
 }
