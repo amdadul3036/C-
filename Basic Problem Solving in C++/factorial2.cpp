@@ -12,7 +12,7 @@ Input           Output
 #include <iostream>
 using namespace std;
 
-long int factorial(long int n)
+int factorial(int n)
 {
     if(n == 1 || n==0)
     {
@@ -26,7 +26,7 @@ long int factorial(long int n)
 
 int main()
 {
-    long int n, r;
+    int n, r;
     while(1)
     {
         cin >> n;
