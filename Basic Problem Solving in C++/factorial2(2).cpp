@@ -21,7 +21,7 @@ int main()
                 r = r*i;
             }
         }
-        cout << r << "\n";  //New Line
+        cout << r << "\n"; 
     }
 
     return 0;
