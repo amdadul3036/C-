@@ -17,19 +17,19 @@ Sample input/output is given below:
 using namespace std;
 
 int rec(){
-    int n;
+    int n , sum = 0;
 
     cout << "Enter Direction : ";
 
     cin >> n;
 
+    sum = sum + n ;
+
     rec();
 }
 
 int main(){
-    int main();{
         int n, L {10},D {5}, R {-8}, U {-3};
 
         rec();
-    }
 }
