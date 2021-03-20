@@ -5,6 +5,9 @@ int main()
 {
     long long n, r;
     int i;
+
+    // cout << "Enter the number : ";
+    
     while(1)
     {
         cin >> n;
