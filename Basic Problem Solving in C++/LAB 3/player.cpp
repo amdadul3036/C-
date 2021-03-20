@@ -16,20 +16,22 @@ Sample input/output is given below:
 #include<iostream>
 using namespace std;
 
-int rec(){
-    int n , sum = 0;
-
-    cout << "Enter Direction : ";
-
-    cin >> n;
-
-    sum = sum + n ;
-
-    rec();
-}
-
 int main(){
-        int n, L {10},D {5}, R {-8}, U {-3};
+        int n, L {10},D {5}, R {-8}, U {-3}  , sum = 0;;
 
-        rec();
+        cout << "Enter Direction : ";
+
+    while (1)
+    {
+        if (n == -1)
+        {
+            break;
+        }else
+        {
+            sum = sum + n ;
+        }
+        
+        cout << sum;
+    }
+    
 }
