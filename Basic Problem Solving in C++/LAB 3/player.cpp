@@ -19,7 +19,7 @@ using namespace std;
 int main(){
         int n, L {10},D {5}, R {-8}, U {-3}  , sum = 0;;
 
-        cout << "Enter Direction : ";
+        cout << "Enter Direction : " << endl;
 
     while (1)
     {
