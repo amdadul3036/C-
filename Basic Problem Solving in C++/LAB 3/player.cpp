@@ -10,7 +10,7 @@ Sample input/output is given below:
         R R U L L D U L X               13$
         L R U U D R X                   -7$
 
-*Path is terminated if user inputs ‘X’
+ Path is terminated if user inputs ‘X’
 */
 
 #include<iostream>
