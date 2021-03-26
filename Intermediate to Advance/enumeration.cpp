@@ -12,4 +12,8 @@ int main(){
     WAPONE Messile = MISSILE;
     WAPONE Torpedo(TORPEDO);
     WAPONE Cannon{CANNON};
+
+
+    cout << Messile; 
+    cout << Cannon;
 }
