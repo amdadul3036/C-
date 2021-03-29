@@ -3,7 +3,7 @@ using namespace std;
 
 enum WAPONE //Generally the name of Enumeration be CAPITALIZED
 {
-    MISSILE = 5,TORPEDO,CANNON = 9 ,ANTIAIRCRAFTGUN,RAILGUN  //This elements are known as "Enumerator". Last one do not have any comma
+    MISSILE = 5,TORPEDO,CANNON = 9 ,ANTIAIRCRAFTGUN,RAILGUN  //This elements are known as "Enumerator".Last one do not have any comma
 };
 
 int main(){
