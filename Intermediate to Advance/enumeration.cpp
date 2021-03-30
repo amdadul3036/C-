@@ -7,7 +7,7 @@ enum WAPONE //Generally the name of Enumeration be CAPITALIZED
 };
 
 int main(){
-    //There are three types of expression for Enumeration such as - 
+    //There are three types of expression for Enumeration such as --- 
 
     WAPONE Messile = MISSILE;
     WAPONE Torpedo(TORPEDO);
