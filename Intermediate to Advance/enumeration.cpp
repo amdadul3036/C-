@@ -10,7 +10,7 @@ enum WAPON_2
 {
    BOFORRO,
    CANNON_2,
-   TORPEDO  //This is an Error because in WAPON enumeration we already have "TORPEDO"; You cannot use it again in another enumeration under same code
+//    TORPEDO  //This is an Error because in WAPON enumeration we already have "TORPEDO"; You cannot use it again in another enumeration under same code
 };
 
 int main(){
