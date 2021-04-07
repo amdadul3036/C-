@@ -20,7 +20,7 @@ int main(){
     WAPONE Torpedo(TORPEDO);   //This is an Error because in WAPON enumeration we already have "TORPEDO"; You cannot use it again in another enumeration under same code
     WAPONE Cannon{CANNON};
     // WAPONE Excalibur = 10; //It will give an error ; Because in the Enumeration of WAPON there is nothing like 10. So it's not happy with 10
-    WAPONE Excalibur_2 = static_cast<WAPONE>(10);
+    WAPONE Excalibur_2 = static_cast<WAPONE>(10);   //Thus you can force it to done by using static cast.
 
 
     cout << Messile << endl; 
