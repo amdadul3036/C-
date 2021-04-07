@@ -20,6 +20,7 @@ int main(){
     WAPONE Torpedo(TORPEDO);   //This is an Error because in WAPON enumeration we already have "TORPEDO"; You cannot use it again in another enumeration under same code
     WAPONE Cannon{CANNON};
 
+    // WAPONE Excalibur = 10; //It will give an error ; Because in the Enumeration of WAPON there is nothing like 10. So it's not happy with 10
 
     cout << Messile; 
     cout << Cannon;
