@@ -17,6 +17,5 @@ int main(){
     cin >> Missilevalue;
 
     WAPONE Missile_2 = static_cast<WAPONE>(Missilevalue);
-
     cout << Missile_2;
 }
