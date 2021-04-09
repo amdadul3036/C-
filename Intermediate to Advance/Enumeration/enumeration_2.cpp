@@ -14,7 +14,7 @@ int main(){
 
     // cin >> Missile; //It will give an error. Because we cannot input value in this way in Enumeration
 
-    cin >> Missilevalue;
+    cin >> Missilevalue ;
 
     WAPONE Missile_2 = static_cast<WAPONE>(Missilevalue);
     cout << Missile_2;
