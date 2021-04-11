@@ -12,7 +12,7 @@ int main(){
 
     // WAPONE Missile = MISSILE;
 
-    // cin >> Missile; //It will give an error. Because we cannot input value in this way in Enumeration
+    // cin >> Missile; //It will give an error.Because we cannot input value in this way in Enumeration
 
 
     cin >> Missilevalue ;
