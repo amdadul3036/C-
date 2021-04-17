@@ -10,8 +10,8 @@ enum WAPONE
 void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
-    case /* constant-expression */:
-        /* code */
+    case /*  */:
+        /*  */
         break;
     
     default:
