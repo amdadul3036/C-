@@ -11,7 +11,7 @@ void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
     case /*  */:
-        /*  */
+        /* enumeration */
         break;
     
     default:
