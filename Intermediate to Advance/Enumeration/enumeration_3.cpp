@@ -10,8 +10,8 @@ enum WAPONE
 void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
-    case /* ENUMERATION PARI NAH */:
-        /* enumeration PARI NAH */
+    case /*  */:
+        /*  */
         break;
     
     default:
