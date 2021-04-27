@@ -10,7 +10,7 @@ enum WAPONE
 void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
-    case /*adf  */:
+    case /*Programming Hocche nah  */:
         /*  */
         break;
     
