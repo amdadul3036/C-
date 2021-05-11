@@ -11,7 +11,7 @@ void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
     case /*Programming Hocche nah  */:
-        /* Cannot getting time to code!! */
+        /* Taking some break with c++ */
         break;
     
     default:
