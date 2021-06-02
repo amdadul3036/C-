@@ -11,7 +11,7 @@ void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
     case /*Programming Hocche nah  */:
-        /* I Love C++ */
+        /* Should I start QT? */
         break;
     
     default:
