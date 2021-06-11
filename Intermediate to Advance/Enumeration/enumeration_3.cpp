@@ -10,7 +10,7 @@ enum WAPONE
 void printWaponeName(WAPONE wapone){
     switch (wapone)
     {
-    case /*Programming Hocche nah  */:
+    case /*HEY C++ Hocche nah  */:
         /* Should I start QT? */
         break;
     
