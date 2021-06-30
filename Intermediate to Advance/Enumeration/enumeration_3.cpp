@@ -22,6 +22,6 @@ void printWaponeName(WAPONE wapone){
 int main(){
     WAPONE Cannon = CANNON;  //9
 
-    cout << Cannon << endl;
+    cout << Cannon ;
 
 }
