@@ -23,5 +23,5 @@ int main(){
     WAPONE Cannon = CANNON;  //9
 
     cout << Cannon ;
-
+//Enumeration demotivated me in 2021,June from C++ . I am back in 2022 January
 }
