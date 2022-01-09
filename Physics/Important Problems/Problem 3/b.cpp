@@ -1,4 +1,4 @@
-// (a) answer start 
+// (b) answer start 
 
 
 #include<iostream>
@@ -6,7 +6,7 @@
 using namespace std;
 
 double vel(double t){
-    int m,b,v0;
+    int m = 60,b = 1,v0 = 15;
     double g = 9.8;
 
     double j = (m*g)/b;
@@ -18,4 +18,8 @@ double vel(double t){
 }
 
 
-// (a) answer End  
+int main(){
+    cout<< "Velocity of the diver after 10 seconds: " << vel(10) << endl;
+}
+
+// (b) answer End 
