@@ -15,3 +15,20 @@ double pi(int n){
 }
 
 // (a) answer End 
+
+
+// (b) answer start -- 1st Part
+
+int main(){
+
+    int n;
+
+    cout << "Enter n: ";
+    cin >> n; 
+     cout<<"The value of PI for the first " << n << " term is " << pi(n) << endl;
+
+
+     for(n=10;n<=500;n++){
+        cout << n << " " << abs(pi(n) - M_PI ) << endl; 
+    }
+}
