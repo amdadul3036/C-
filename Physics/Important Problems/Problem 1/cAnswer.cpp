@@ -25,3 +25,4 @@ int main(){
     return 0; 
 }
 
+// (c) answer end 
