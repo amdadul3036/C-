@@ -5,7 +5,7 @@ using namespace std;
 // (a) number answer start 
 
 double accl(double theta, double mu){
-    double F,m,g=9.8;
+    double F= 12.0,m = 3.0,g= 9.8;
 
     double j = (F/m)*cos(theta);
     double k = (F/m)*sin(theta);
@@ -16,3 +16,16 @@ double accl(double theta, double mu){
 }
 
 // (a) number answer End
+
+
+// (b) answer start
+
+int main(){
+    for (double theta = 0;theta<=M_PI/2; theta = theta + (M_PI/30))
+    {
+        cout <<" " << accl(theta,0.40) << endl; 
+    }
+    return 0; 
+}
+
+// (b) answer end
