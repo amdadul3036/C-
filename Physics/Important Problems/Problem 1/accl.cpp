@@ -23,7 +23,7 @@ double accl(double theta, double mu){
 int main(){
     for (double theta = 0;theta<=M_PI/2; theta = theta + (M_PI/30))
     {
-        cout <<" " << accl(theta,0.40) << endl; 
+        cout <<theta<<" " << accl(theta,0.40) << endl; 
     }
     return 0; 
 }
