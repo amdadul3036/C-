@@ -1,8 +1,8 @@
-// (c) answer start 
-
+// (c) start for graph 
 
 #include<iostream>
 #include<cmath>
+#include<fstream>
 using namespace std;
 
 double vel(double t){
@@ -19,12 +19,14 @@ double vel(double t){
 
 
 int main(){
-
+    ofstream fout("velocity.dat");
     double t; 
     for(t=0;t<=100;t+=0.01){
-        cout << t << " " << vel(t) << endl;
+        fout << t << " " << vel(t) << endl;
     }
+
+    return 0;
 }
 
 
-// (c) end without graph
+// (c) end with graph
