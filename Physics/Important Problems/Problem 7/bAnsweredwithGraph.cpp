@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cmath>
+#include<fstream>
 using namespace std;
 
 double mysqroot(double b, int n){
@@ -8,14 +9,13 @@ double mysqroot(double b, int n){
 }
 
 int main(){
+    ofstream fout("sqrt.dat");
     double b=100.0;
 
     for(int n=1;n<=20;n++){
-        cout<< n << " " << abs(mysqroot(b,n)-sqrt(b)) << endl;
+        fout<< n << " " << abs(mysqroot(b,n)-sqrt(b)) << endl;
     }
 
     return 0;
     
 }
-
-// (b) answer without graph 
