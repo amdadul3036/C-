@@ -4,7 +4,7 @@
 
 #include<iostream>
 using namespace std;
-#define EPSILON 0.01; // This 0.01 is basically the Tolerance of the Numerical Analysis
+#define EPSILON (0.01) // This 0.01 is basically the Tolerance of the Numerical Analysis
 
 double func(double x)
 {
@@ -18,7 +18,7 @@ void bisection(double a, double b){
     }
 
     double c=a; 
-    while(b-a)>= EPSILON{
+    while((b-a)>= EPSILON){
         c=(a+b)/2; // Finding the middle point; 
 
         if(func(c) == 0.0) // Checking if middle point is the root 
