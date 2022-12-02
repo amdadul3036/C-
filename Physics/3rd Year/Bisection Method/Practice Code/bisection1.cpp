@@ -11,8 +11,9 @@ double func(double x){
 }
 
 void bisection(double a, double b){
-    if (func(a)*func(b)>0){
+    if (func(a)*func(b)>=0){
         cout<< "You have not assumed the right value of a and b" << endl;
+        return; 
     }
 
     double c=a; 
