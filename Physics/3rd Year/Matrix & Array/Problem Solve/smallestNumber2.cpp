@@ -7,7 +7,7 @@ int main(){
     int min = A[0];
     for (int j = 0; j < 5; j++)
     {
-        if (A[j]<=A[0])
+        if (A[j]<=min)
         {
             min=A[j];
         }
