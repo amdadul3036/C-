@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int eps(int i;int j;int k){
-    return 0.5*(i-j)*(j-k)*(k-i)
+int eps(int i,int j,int k){
+    return 0.5*(i-j)*(j-k)*(k-i);
 }
 
 int main(){
