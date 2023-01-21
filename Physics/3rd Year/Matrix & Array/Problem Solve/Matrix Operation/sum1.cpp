@@ -47,8 +47,8 @@ int main(){
         {
             SUM [i] [j] = M1 [i] [j] + M2 [i] [j];
             cout<<SUM [i] [j]<<" "<<endl;
-            }
-            cout<<endl; 
+        }
+        cout<<endl; 
     }
 
     return 0;
