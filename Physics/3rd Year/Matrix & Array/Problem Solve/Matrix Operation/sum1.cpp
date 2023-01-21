@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-    int M1 [10] [10], M2 [10] [10], SUM [10] [10];
+    int matrix1 [10] [10], matrix2 [10] [10], SUM [10] [10];
     int ROW,COL,i,j;
 
     cout<<"Enter the number of Row: ";
@@ -22,7 +22,7 @@ int main(){
     {
         for (int j = 0; j < COL; j++)
         {
-            cin>>M1 [i] [j];
+            cin>>matrix1 [i] [j];
         }
         
     }
@@ -33,7 +33,7 @@ int main(){
     {
         for (int j = 0; j < COL; j++)
         {
-            cin>>M2 [i] [j];
+            cin>>matrix2 [i] [j];
         }
         
     }
@@ -45,7 +45,7 @@ int main(){
     {
         for (int j = 0; j < COL; j++)
         {
-            SUM [i] [j] = M1 [i] [j] + M2 [i] [j];
+            SUM [i] [j] = matrix1 [i] [j] + matrix2 [i] [j];
             cout<<SUM [i] [j]<<" "<<endl;
         }
         cout<<endl; 
