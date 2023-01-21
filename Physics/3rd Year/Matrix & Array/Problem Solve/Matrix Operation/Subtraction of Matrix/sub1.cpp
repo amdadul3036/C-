@@ -1,4 +1,4 @@
-// Sum 2 Matrix
+// Subtract 2 Matrix
 
 
 #include<iostream>
