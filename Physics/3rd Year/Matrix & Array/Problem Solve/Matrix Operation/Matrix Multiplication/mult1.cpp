@@ -55,6 +55,8 @@ int main(){
     }
     
 
+    /*
+    
     //Initialization of multiplication matrix
 
     for ( i = 0; i < ROW1; i++)
@@ -65,6 +67,8 @@ int main(){
         }
         
     }
+    
+    */
 
     //Multiplying the matrixes
 
@@ -72,9 +76,10 @@ int main(){
     {
         for ( j = 0; j < COL2; j++)
         {
+            product[i][j]=0;
             for ( k = 0; k < COL1; k++)
             {
-                product[i][j]+=product[i][k]*product[k][j];
+                product[i][j]+=matrix1[i][k]*matrix2[k][j];
             }
             
         }
