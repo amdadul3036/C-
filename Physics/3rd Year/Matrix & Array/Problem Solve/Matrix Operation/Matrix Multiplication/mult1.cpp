@@ -30,7 +30,9 @@ int main(){
     cout<<endl;
 
 
-    cout<<"Enter the elements of matrix1: "<<endl;
+    if (COL1==ROW2)
+    {
+        cout<<"Enter the elements of matrix1: "<<endl;
     for ( i = 0; i < ROW1; i++)
     {
         for ( j = 0; j < COL1; j++)
@@ -77,8 +79,21 @@ int main(){
             
         }
         
+        
     }
-    
+        cout<<"Matrix Multiplication Result: "<<endl;
+        for ( i = 0; i < ROW1; i++){
+            for ( j = 0; j < COL2; j++){
+                cout<<product[i][j]<<" ";
+        } 
+        cout<<endl; 
+    }
+    } 
+    else{
+            cout<<"Sorry, to multiply two matrix, number of Column of 1st Matrix should be equal to the number of Columns of second matrix. As you are not following this condition, so we cannot multiply the matrixes.";
 
+    }
+
+    return 0; 
 }
 
