@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath>
 
-#define f(x) pow(x,2)-(5*x)+2
+#define f(x) (x*x)-(5*x)+2.0
 
 using namespace std;
 
@@ -22,14 +22,14 @@ int main(){
 
     //Finding Integral Value
 
-    Integrations = f(upper)+f(lower);
+    Integrations = f(upperLimit)+f(lowerLimit);
     for (int i = 1; i < subintervalNumber - 1; i++)
     {
         k = lowerLimit + (i*stepsize);
         Integrations += (2*f(k));
     }
     
-    Integrations = (stepsize/2)*integrations;
+    Integrations = (stepsize/2)*Integrations;
 
     cout<<"Value of the integration is: "<<Integrations<<endl;
 
