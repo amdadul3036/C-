@@ -1,3 +1,6 @@
+// Write a C++ code to generates an array of N_points values for a sine function f(x) = sin(x) and the derivative of f(x).
+
+
 #include<iostream>
 #include<cmath>
 using namespace std;
