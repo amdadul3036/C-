@@ -1,4 +1,5 @@
 // Write a C++ code in implementing the Newton-Raphson method to find the roots of a given equation f(x) = sinx.
+// Before Solving it, we have to make sure that we know the Numerical Differentiation
 
 #include <iostream>
 #include <cmath>
