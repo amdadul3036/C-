@@ -16,7 +16,7 @@ void euler(double h, double t0, double y0){
     double y=y0;
     for (double t = t0; t <= 5; t+=h)
     {
-        cout<<t<<" "<<y<<" "<<" "<<1+(0.5*exp(-4*t))-(0.5*exp(-2*t))<<endl; 
+        fout<<t<<" "<<y<<" "<<" "<<1+(0.5*exp(-4*t))-(0.5*exp(-2*t))<<endl; 
         y+=h*f(t,y);
     }
     
