@@ -1,0 +1,1 @@
+plot 'euler.dat' u 1:2 w l

@@ -1,3 +1,6 @@
+//PROBLEM: using the Euler method to solve the differential equation y′ = 2−e^(−4t)−2y with the initial condition y(0)=1. 
+
+
 #include<iostream>
 #include<fstream>
 #include<cmath>
