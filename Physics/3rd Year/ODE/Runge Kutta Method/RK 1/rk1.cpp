@@ -1,9 +1,12 @@
+//solve a differential equation using the Runge-Kutta method and generate numerical approximations of the solution. Given, dx/dt = t*sqrt(x); t0 = 0; x0 = 1; x(t) = ((t^2+4)^2)/16 
+
+
 #include<iostream>
 #include<cmath>
 #include<fstream>
 using namespace std;
 
-ofstream fout('rk1.dat');
+ofstream fout("rk1.dat");
 double f(double t, double x){
     return t*sqrt(x);
 }
