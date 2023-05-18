@@ -22,12 +22,12 @@ double RK(double h, double t0, double x0){
 
 int main(){
     ofstream fout("rk1.dat");
-    double t = 0, x=1, dt=0.1;
+    double t = 0, x=1, h=0.1;
 
-    for ( t = 0; t <= 10; t+=dt)
+    for ( t = 0; t <= 10; t+=h)
     {
         fout<<t<<" "<<x<<" "<<(pow(pow(t,2),2))/16<<endl;
-        x = RK(dt,t,x);
+        x = RK(h,t,x);
     }
 
     return 0;

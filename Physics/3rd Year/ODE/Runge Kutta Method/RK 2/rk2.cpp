@@ -1,3 +1,9 @@
+/*"Given a mass-spring system [d2x/dt2 = -kx/m] with a spring constant of k = 150 and a mass of m = 7.2, implement the Runge-Kutta 
+method to numerically simulate the motion of the system. The initial position of the mass is x = 0.5, and the step 
+size for the simulation is h = 0.1. Output the values of time (t), position (x), and velocity (v) to a file (rk2.dat) 
+for a duration of 5.0 units of time. Provide the updated code for the simulation."*/
+
+
 #include<iostream>
 #include<cmath>
 #include<fstream>
@@ -32,10 +38,17 @@ int main() {
     ofstream fout("rk2.dat");
     double t = 0, v = 0;
 
-    while (t < 5.0) {
+    /*while (t < 5.0) {
+        fout << t << " " << x << " " << v << endl;
+        RK(h, t, x, v);
+    }*/
+
+    for ( t = 0; t <= 5; t+=h)
+    {
         fout << t << " " << x << " " << v << endl;
         RK(h, t, x, v);
     }
+    
 
     fout.close();
 
