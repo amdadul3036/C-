@@ -15,9 +15,9 @@ int main(){
     cin>> upperLimit;
 
     cout<<"Enter number of subintervals: ";
-    cin>> subintervalNumber;
+    cin>> subintervalNumber; 
 
-    //Step Size Calculation
+    //Step Size Calculation 
     stepsize = (upperLimit-lowerLimit)/subintervalNumber;
 
     //Finding Integral Value
