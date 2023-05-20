@@ -17,7 +17,15 @@ void bisection(double a, double b){
         return; 
     }
 
-    double c=a; 
+    double c=a;  /*In the provided code, the line double c = a; initializes the variable c with the value of a. This is 
+                    done to ensure that c has an initial value before entering the bisection loop.Inside the bisection 
+                    loop, the variable c is updated as (a + b) / 2, which represents the midpoint of the interval [a, b]. 
+                    Initially setting c to a ensures that it has a valid value in case the loop is not executed at all 
+                    (for example, if func(a) == 0 initially).
+
+                    The initial value of c is not critical and can be set to either a or b. It is just a starting point 
+                    for the bisection algorithm. As the algorithm progresses, c will be updated with more accurate 
+                    approximations of the root until the desired tolerance is achieved. */
     while((b-a)>= EPSILON){
         c=(a+b)/2; // Finding the middle point; 
 
