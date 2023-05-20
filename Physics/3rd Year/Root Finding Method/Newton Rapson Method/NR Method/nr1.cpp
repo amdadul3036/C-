@@ -17,6 +17,14 @@ void NR(double x){
     while(abs(h)>=E){
         h = func(x)/derivfunc(x);
         x = x-h;
-        cout << x << endl; 
+        cout << "Result is: " << x << endl; 
     }
+}
+
+
+int main(){
+    double x0 = 0.0; 
+    NR(x0);
+
+    return 0;
 }
